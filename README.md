@@ -1,69 +1,41 @@
 # burden
 
-> Short blurb about what your product does.
+> Originally written for my "template" cookiecutter project. 'Burden' uses the ridiculously usefull invoke library to automate
+> several project maintenance and publishing tasks.
 
-[![PyPI][pypi-image]][pypi-url]
-[![Downloads][downloads-image]][downloads-url]
-[![Status][status-image]][pypi-url]
-[![Python Version][python-version-image]][pypi-url]
-[![Format][format-image]][pypi-url]
-[![Requirements][requirements-status-image]][requirements-status-url]
-[![tests][tests-image]][tests-url]
-[![Codecov][codecov-image]][codecov-url]
-[![CodeFactor][codefactor-image]][codefactor-url]
-[![Codeclimate][codeclimate-image]][codeclimate-url]
-[![Lgtm alerts][lgtm-alerts-image]][lgtm-alerts-url]
-[![Lgtm quality][lgtm-quality-image]][lgtm-quality-url]
-[![CodeQl][codeql-image]][codeql-url]
-[![readthedocs][readthedocs-image]][readthedocs-url]
-[![pre-commit][pre-commit-image]][pre-commit-url]
-[![pre-commit.ci status][pre-commit.ci-image]][pre-commit.ci-url]
-[![Imports: isort][isort-image]][isort-url]
-[![Code style: black][black-image]][black-url]
-[![Checked with mypy][mypy-image]][mypy-url]
-[![security: bandit][bandit-image]][bandit-url]
-[![Commitizen friendly][commitizen-image]][commitizen-url]
-[![Conventional Commits][conventional-commits-image]][conventional-commits-url]
-[![DeepSource][deepsource-image]][deepsource-url]
-[![license][license-image]][license-url]
-
-One to two paragraph statement about your product and what it does.
-
-![](assets/header.png)
+[Invoke][invoke-url] provides a clean, high level API for running shell commands and defining/organizing task functions from a tasks.py file:
 
 ## Installation
 
-OS X & Linux:
-
-```sh
-pip3 install burden
-```
-
-Windows:
-
-```sh
-pip install burden
-```
+Copy the "tasks.py.jinja" file to the root of your project (remove jinja suffix)
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+Burden provides the following tasks...
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+```shell
+inv --list
+Available tasks:
 
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-pip install --editable burden
+  bandit                     Runs bandit against selected python files.
+  build                      Creates a new sdist & wheel build using the PyPA tool.
+  clean                      Removes all test, build, log and lint artifacts from the environment.
+  docs                       Build documentation.
+  lint                       Run all lint tasks on 'src' files only.
+  lint-all                   Run all lint tasks on all files.
+  lint-black (bl, black)     Runs black formatter against selected python files.
+  lint-flake8 (fl, flake8)   Run flake8 against selected files.
+  lint-isort (is, isort)     Run isort against selected python files.
+  mypy                       Run mypy against selected python files.
+  psr                        Runs semantic-release publish.
+  publish                    Uploads a build to the PyPI-test and PyPI python repositories.
+  pypi                       Uploads a build to the PyPI python repository.
+  pypi-test                  Uploads a build to the PyPI-test python repository.
+  safety                     Runs safety to check for insecure requirements.
+  secure                     Runs all security tools.
+  tests                      Run tests using pytest.
+  update                     Updates the development environment
 ```
-
-## Documentation
-
-### - [**Read the Docs**](https://burden.readthedocs.io/en/latest/)
-
-### - [**Wiki**](https://github.com/Stephen-RA-King/burden/wiki)
 
 ## Meta
 
@@ -106,6 +78,7 @@ Created with Cookiecutter template: [**cc_template**][cc_template-url] version 1
 [downloads-image]: https://static.pepy.tech/personalized-badge/burden?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads
 [downloads-url]: https://pepy.tech/project/burden
 [format-image]: https://img.shields.io/pypi/format/burden
+[invoke-url]: https://github.com/pyinvoke/invoke
 [isort-image]: https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336
 [isort-url]: https://github.com/pycqa/isort/
 [lgtm-alerts-image]: https://img.shields.io/lgtm/alerts/g/Stephen-RA-King/burden.svg?logo=lgtm&logoWidth=18
