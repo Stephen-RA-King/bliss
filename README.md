@@ -1,4 +1,4 @@
-# burden
+# bliss
 
 > Originally written for my "template" cookiecutter project. 'Burden' uses the ridiculously usefull invoke library to automate
 > several project maintenance and publishing tasks.
@@ -41,7 +41,7 @@ Available tasks:
 
 [![](assets/linkedin.png)](https://www.linkedin.com/in/sr-king)
 [![](assets/github.png)](https://github.com/Stephen-RA-King)
-[![](assets/pypi.png)](https://pypi.org/project/burden)
+[![](assets/pypi.png)](https://pypi.org/project/bliss)
 [![](assets/www.png)](https://www.justpython.tech)
 [![](assets/email.png)](mailto:sking.github@gmail.com)
 
@@ -49,7 +49,7 @@ Stephen R A King : stephen.ra.king@gmail.com
 
 Distributed under the MIT license. See [license][license-url] for more information.
 
-[https://github.com/Stephen-RA-King/burden](https://github.com/Stephen-RA-King/burden)
+[https://github.com/Stephen-RA-King/bliss](https://github.com/Stephen-RA-King/bliss)
 
 Created with Cookiecutter template: [**pydough**][pydough-url] version 1.2.1
 
@@ -61,45 +61,45 @@ Created with Cookiecutter template: [**pydough**][pydough-url] version 1.2.1
 [black-url]: https://github.com/psf/black
 [pydough-url]: https://github.com/Stephen-RA-King/pydough
 [codeclimate-image]: https://api.codeclimate.com/v1/badges/7fc352185512a1dab75d/maintainability
-[codeclimate-url]: https://codeclimate.com/github/Stephen-RA-King/burden/maintainability
-[codecov-image]: https://codecov.io/gh/Stephen-RA-King/burden/branch/main/graph/badge.svg
-[codecov-url]: https://app.codecov.io/gh/Stephen-RA-King/burden
-[codefactor-image]: https://www.codefactor.io/repository/github/Stephen-RA-King/burden/badge
-[codefactor-url]: https://www.codefactor.io/repository/github/Stephen-RA-King/burden
-[codeql-image]: https://github.com/Stephen-RA-King/burden/actions/workflows/codeql-analysis.yml/badge.svg
-[codeql-url]: https://github.com/Stephen-RA-King/burden/actions/workflows/codeql-analysis.yml
+[codeclimate-url]: https://codeclimate.com/github/Stephen-RA-King/bliss/maintainability
+[codecov-image]: https://codecov.io/gh/Stephen-RA-King/bliss/branch/main/graph/badge.svg
+[codecov-url]: https://app.codecov.io/gh/Stephen-RA-King/bliss
+[codefactor-image]: https://www.codefactor.io/repository/github/Stephen-RA-King/bliss/badge
+[codefactor-url]: https://www.codefactor.io/repository/github/Stephen-RA-King/bliss
+[codeql-image]: https://github.com/Stephen-RA-King/bliss/actions/workflows/codeql-analysis.yml/badge.svg
+[codeql-url]: https://github.com/Stephen-RA-King/bliss/actions/workflows/codeql-analysis.yml
 [commitizen-image]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [commitizen-url]: http://commitizen.github.io/cz-cli/
 [conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square
 [conventional-commits-url]: https://conventionalcommits.org
 [deepsource-image]: https://static.deepsource.io/deepsource-badge-light-mini.svg
-[deepsource-url]: https://deepsource.io/gh/Stephen-RA-King/burden/?ref=repository-badge
-[downloads-image]: https://static.pepy.tech/personalized-badge/burden?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads
-[downloads-url]: https://pepy.tech/project/burden
-[format-image]: https://img.shields.io/pypi/format/burden
+[deepsource-url]: https://deepsource.io/gh/Stephen-RA-King/bliss/?ref=repository-badge
+[downloads-image]: https://static.pepy.tech/personalized-badge/bliss?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads
+[downloads-url]: https://pepy.tech/project/bliss
+[format-image]: https://img.shields.io/pypi/format/bliss
 [invoke-url]: https://github.com/pyinvoke/invoke
 [isort-image]: https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336
 [isort-url]: https://github.com/pycqa/isort/
-[lgtm-alerts-image]: https://img.shields.io/lgtm/alerts/g/Stephen-RA-King/burden.svg?logo=lgtm&logoWidth=18
-[lgtm-alerts-url]: https://lgtm.com/projects/g/Stephen-RA-King/burden/alerts/
-[lgtm-quality-image]: https://img.shields.io/lgtm/grade/python/g/Stephen-RA-King/burden.svg?logo=lgtm&logoWidth=18
-[lgtm-quality-url]: https://lgtm.com/projects/g/Stephen-RA-King/burden/context:python
-[license-image]: https://img.shields.io/pypi/l/burden
-[license-url]: https://github.com/Stephen-RA-King/burden/blob/main/license
+[lgtm-alerts-image]: https://img.shields.io/lgtm/alerts/g/Stephen-RA-King/bliss.svg?logo=lgtm&logoWidth=18
+[lgtm-alerts-url]: https://lgtm.com/projects/g/Stephen-RA-King/bliss/alerts/
+[lgtm-quality-image]: https://img.shields.io/lgtm/grade/python/g/Stephen-RA-King/bliss.svg?logo=lgtm&logoWidth=18
+[lgtm-quality-url]: https://lgtm.com/projects/g/Stephen-RA-King/bliss/context:python
+[license-image]: https://img.shields.io/pypi/l/bliss
+[license-url]: https://github.com/Stephen-RA-King/bliss/blob/main/license
 [mypy-image]: http://www.mypy-lang.org/static/mypy_badge.svg
 [mypy-url]: http://mypy-lang.org/
 [pre-commit-image]: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
 [pre-commit-url]: https://github.com/pre-commit/pre-commit
-[pre-commit.ci-image]: https://results.pre-commit.ci/badge/github/Stephen-RA-King/burden/main.svg
-[pre-commit.ci-url]: https://results.pre-commit.ci/latest/github/Stephen-RA-King/burden/main
-[pypi-url]: https://pypi.org/project/burden/
-[pypi-image]: https://img.shields.io/pypi/v/burden.svg
-[python-version-image]: https://img.shields.io/pypi/pyversions/burden
-[readthedocs-image]: https://readthedocs.org/projects/burden/badge/?version=latest
-[readthedocs-url]: https://burden.readthedocs.io/en/latest/?badge=latest
-[requirements-status-image]: https://requires.io/github/Stephen-RA-King/burden/requirements.svg?branch=main
-[requirements-status-url]: https://requires.io/github/Stephen-RA-King/burden/requirements/?branch=main
-[status-image]: https://img.shields.io/pypi/status/burden.svg
-[tests-image]: https://github.com/Stephen-RA-King/burden/actions/workflows/tests.yml/badge.svg
-[tests-url]: https://github.com/Stephen-RA-King/burden/actions/workflows/tests.yml
-[wiki]: https://github.com/Stephen-RA-King/burden/wiki
+[pre-commit.ci-image]: https://results.pre-commit.ci/badge/github/Stephen-RA-King/bliss/main.svg
+[pre-commit.ci-url]: https://results.pre-commit.ci/latest/github/Stephen-RA-King/bliss/main
+[pypi-url]: https://pypi.org/project/bliss/
+[pypi-image]: https://img.shields.io/pypi/v/bliss.svg
+[python-version-image]: https://img.shields.io/pypi/pyversions/bliss
+[readthedocs-image]: https://readthedocs.org/projects/bliss/badge/?version=latest
+[readthedocs-url]: https://bliss.readthedocs.io/en/latest/?badge=latest
+[requirements-status-image]: https://requires.io/github/Stephen-RA-King/bliss/requirements.svg?branch=main
+[requirements-status-url]: https://requires.io/github/Stephen-RA-King/bliss/requirements/?branch=main
+[status-image]: https://img.shields.io/pypi/status/bliss.svg
+[tests-image]: https://github.com/Stephen-RA-King/bliss/actions/workflows/tests.yml/badge.svg
+[tests-url]: https://github.com/Stephen-RA-King/bliss/actions/workflows/tests.yml
+[wiki]: https://github.com/Stephen-RA-King/bliss/wiki
