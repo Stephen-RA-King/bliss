@@ -1,7 +1,9 @@
-# bliss
+# Bliss
 
-> Originally written for my "template" cookiecutter project. 'Burden' uses the ridiculously usefull invoke library to automate
-> several project maintenance and publishing tasks.
+_**Originally written for my [Pydough](https://github.com/Stephen-RA-King/pydough) cookiecutter project. 'Burden' uses the ridiculously usefull invoke library to automate**_
+_**numerous project maintenance and publishing tasks.**_
+
+![](assets/bliss.png)
 
 [Invoke][invoke-url] provides a clean, high level API for running shell commands and defining/organizing task functions from a tasks.py file:
 
@@ -45,11 +47,9 @@ Available tasks:
 [![](assets/www.png)](https://www.justpython.tech)
 [![](assets/email.png)](mailto:sking.github@gmail.com)
 
-Stephen R A King : stephen.ra.king@gmail.com
+Stephen R A King : [sking.github@gmail.com](mailto:sking.github@gmail.com)
 
 Distributed under the MIT license. See [license][license-url] for more information.
-
-[https://github.com/Stephen-RA-King/bliss](https://github.com/Stephen-RA-King/bliss)
 
 Created with Cookiecutter template: [**pydough**][pydough-url] version 1.2.1
 
