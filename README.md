@@ -49,7 +49,7 @@ Available tasks:
 
 Stephen R A King : [sking.github@gmail.com](mailto:sking.github@gmail.com)
 
-Distributed under the MIT license. See [license][license-url] for more information.
+Distributed under the MIT license. See [**license**][license-url] for more information.
 
 Created with Cookiecutter template: [**pydough**][pydough-url] version 1.2.1
 
