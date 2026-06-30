@@ -1,6 +1,6 @@
 # Bliss
 
-_**Originally written for my [Pydough](https://github.com/Stephen-RA-King/pydough) cookiecutter project. 'Burden' uses the ridiculously usefull invoke library to automate**_
+_**Originally written for my [Pydough](https://github.com/Stephen-RA-King/pydough) cookiecutter project. 'Bliss' uses the ridiculously usefull invoke library to automate**_
 _**numerous project maintenance and publishing tasks.**_
 
 ![](assets/bliss.png)
