@@ -45,7 +45,7 @@ repos:
         args: ["-U", "requirements/test.in"]
 
   - repo: https://github.com/pycqa/isort
-    rev: 9.0.0a3
+    rev: 9.0.0b1
     hooks:
       - id: isort
         args: ["--filter-files"]
@@ -79,7 +79,7 @@ repos:
         stages: [pre-commit]
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v2.1.0
+    rev: v2.3.0
     hooks:
       - id: mypy
         args: [--ignore-missing-imports, --disallow-untyped-defs]
