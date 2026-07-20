@@ -19,13 +19,13 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.16.4
+    rev: v4.16.5
     hooks:
       - id: commitizen
         stages: [commit-msg]
 
   - repo: https://github.com/jazzband/pip-tools
-    rev: v7.5.3
+    rev: v7.6.0
     hooks:
       - id: pip-compile
         name: pip-compile base.in
