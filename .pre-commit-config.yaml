@@ -19,13 +19,13 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.17.0
+    rev: v4.17.1
     hooks:
       - id: commitizen
         stages: [commit-msg]
 
   - repo: https://github.com/jazzband/pip-tools
-    rev: v7.6.0
+    rev: v7.6.1
     hooks:
       - id: pip-compile
         name: pip-compile base.in
@@ -45,7 +45,7 @@ repos:
         args: ["-U", "requirements/test.in"]
 
   - repo: https://github.com/pycqa/isort
-    rev: 9.0.0b2
+    rev: 9.0.0b5
     hooks:
       - id: isort
         args: ["--filter-files"]
@@ -79,7 +79,7 @@ repos:
         stages: [pre-commit]
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v2.3.0
+    rev: v2.3.1
     hooks:
       - id: mypy
         args: [--ignore-missing-imports, --disallow-untyped-defs]
