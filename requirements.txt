@@ -651,7 +651,7 @@ tomlkit==0.13.3
     # via
     #   commitizen
     #   python-semantic-release
-tornado==6.5.8
+tornado==6.6.1
     # via
     #   ipykernel
     #   jupyter-client
