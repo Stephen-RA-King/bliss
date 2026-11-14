@@ -187,7 +187,7 @@ idna==3.19
     #   httpx
     #   jsonschema
     #   requests
-imagesize==2.0.0
+imagesize==2.0.1
     # via sphinx
 importlib-metadata==9.0.0
     # via
@@ -651,7 +651,7 @@ tomlkit==0.13.3
     # via
     #   commitizen
     #   python-semantic-release
-tornado==6.5.8
+tornado==6.6.1
     # via
     #   ipykernel
     #   jupyter-client
